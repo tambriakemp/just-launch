@@ -4,10 +4,10 @@
 ===================================================== */
 @font-face {
   font-family: "CircularStd-Book";
-  src: url("./fonts/CircularStd-Book.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/CircularStd-Book.woff") format("woff"),
-    url("./fonts/CircularStd-Book.ttf") format("truetype"),
-    url("./fonts/CircularStd-Book.svg#CircularStd-Book") format("svg");
+  src: url(".../fonts/CircularStd-Book.eot?#iefix") format("embedded-opentype"),
+    url(".../fonts/CircularStd-Book.woff") format("woff"),
+    url(".../fonts/CircularStd-Book.ttf") format("truetype"),
+    url(".../fonts/CircularStd-Book.svg#CircularStd-Book") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -215,7 +215,6 @@ html[xmlns] .clearfix {
   color: #fff;
   box-sizing: border-box;
   position: relative;
-  height: 100vh;
 }
 
 .login-right {
@@ -1050,7 +1049,6 @@ ul {
   color: #fff;
   text-decoration: underline;
 }
-
 @media (max-width: 1400px) {
   body {
     font-size: 16px;
@@ -1215,8 +1213,5 @@ ul {
   }
   .chart label {
     font-size: 0.74rem;
-  }
-  .login-left.dark.bg-section {
-    height: initial;
   }
 }
