@@ -1,46 +1,12 @@
 import React, { Component } from "react";
+import Nav from "../components/Nav/Nav";
 
-class Dashboard extends Component {
+class Reference extends Component {
   render() {
     return (
       <section class="dashboard">
+        <Nav />
         <div class="row display-table-row">
-          <div class="left-menu">
-            <div id="logo-container">
-              <div class="logo">
-                {" "}
-                <a href="login.html">
-                  <img src="images/logo.png" alt="" />
-                </a>{" "}
-              </div>
-            </div>
-            <div class="navigation">
-              <h2>Navigations</h2>
-              <ul class="menu">
-                <li>
-                  <a href="dashboard.html" class="active">
-                    <i class="fa fa-th-large" aria-hidden="true" /> Dashboard
-                  </a>
-                </li>
-                <li>
-                  <a href="documents.html">
-                    <i class="fa fa-th" aria-hidden="true" /> Notes
-                  </a>
-                </li>
-                <li>
-                  <a href="documents.html">
-                    <i class="fa fa-envelope" aria-hidden="true" /> Documents
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fa fa-shopping-cart" aria-hidden="true" />{" "}
-                    References
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
           <div class="right-area">
             <div id="top-bar-section">
               <div class="top-bar">
@@ -94,54 +60,6 @@ class Dashboard extends Component {
             <div class="dashboard-content">
               <div class="dashboard-inner">
                 <div class="dashboard-left">
-                  <div class="bg-shadow">
-                    <div class="chart-area">
-                      <div class="chart">
-                        <div class="c100 p40 green">
-                          {" "}
-                          <span>15310</span>
-                          <div class="slice">
-                            <div class="bar" />
-                            <div class="fill" />
-                          </div>
-                        </div>
-                        <label>Task</label>
-                      </div>
-                      <div class="chart">
-                        <div class="c100 p80 pink">
-                          {" "}
-                          <span>548</span>
-                          <div class="slice">
-                            <div class="bar" />
-                            <div class="fill" />
-                          </div>
-                        </div>
-                        <label>Notes</label>
-                      </div>
-                      <div class="chart">
-                        <div class="c100 p35 blue">
-                          {" "}
-                          <span>154</span>
-                          <div class="slice">
-                            <div class="bar" />
-                            <div class="fill" />
-                          </div>
-                        </div>
-                        <label>Documents</label>
-                      </div>
-                      <div class="chart orrange">
-                        <div class="c100 p20 orange">
-                          {" "}
-                          <span>96</span>
-                          <div class="slice">
-                            <div class="bar" />
-                            <div class="fill" />
-                          </div>
-                        </div>
-                        <label>References</label>
-                      </div>
-                    </div>
-                  </div>
                   <div class="table-area">
                     <div class="table-title clearfix">
                       <h3>Task to complete launch</h3>
@@ -288,4 +206,4 @@ class Dashboard extends Component {
   }
 }
 
-export default Dashboard;
+export default Reference;

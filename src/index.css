@@ -408,11 +408,11 @@ html[xmlns] .clearfix {
   Documents Page Css
 ===================================================== */
 
-.dashboard {
+/* .dashboard {
   height: 100%;
   width: 100%;
   display: table;
-}
+} */
 
 .right-area {
   width: 80%;
@@ -422,7 +422,7 @@ html[xmlns] .clearfix {
 }
 
 .display-table-row {
-  display: table-row;
+  /* display: table-row; */
   height: 100%;
 }
 

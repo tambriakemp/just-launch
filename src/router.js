@@ -2,10 +2,10 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import register from "./pages/register/Register";
 import login from "./pages/login/Login";
-import dashboard from "./pages/dashboard/Dashboard";
+import dashboard from "./pages/Dashboard";
 import notes from "./pages/notes/Notes";
 import documents from "./pages/documents/Documents";
-import reference from "./pages/reference/Reference";
+import reference from "./pages/Reference";
 import NotFound from "./pages/notFound/NotFound";
 
 const Router = () => (
